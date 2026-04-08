@@ -1,0 +1,28 @@
+```
+# Maven
+target/
+
+# IDE
+.idea/
+.vscode/
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies cache
+.m2/
+.gradle/
+```
