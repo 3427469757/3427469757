@@ -1,28 +1,46 @@
 ```
-# Maven
-target/
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-# IDE
-.idea/
-.vscode/
+# Dependencies
+target/
+.m2/
+.gradle/
+
+# Logs and temp files
+*.log
+*.tmp
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Logs
-*.log
-
-# Temporary files
-*.tmp
+# Editors
+.vscode/
+.idea/
 *.swp
+*.swo
 
-# OS
+# System files
 .DS_Store
 Thumbs.db
 
-# Dependencies cache
-.m2/
-.gradle/
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Package manager caches
+node_modules/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
 ```
